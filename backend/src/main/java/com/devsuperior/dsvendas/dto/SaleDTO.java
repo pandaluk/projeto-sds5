@@ -7,6 +7,8 @@ import com.devsuperior.dsvendas.entities.Sale;
 
 public class SaleDTO implements Serializable{
 	
+	private static final long serialVersionUID = -1343584144499014172L;
+	
 	private Long id;	
 	private Integer visited;
 	private Integer deals;
